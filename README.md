@@ -21,13 +21,6 @@ This [project](https://userdata-mu.vercel.app/) demonstrates the retrieval of da
 3. Explore the user-course data relationship.
 4. Enjoy seamless data retrieval and visualization.
 
-## Technologies Used
-- React
-- Supabase
-- JavaScript
-- HTML
-- CSS
-
 ## Schema Visualizer
 ![Screenshot 2024-05-08 221859](https://github.com/harshilshah99/userdata/assets/82211574/130dcc41-b5f0-4aae-8608-e715e9c1ca3a)
 
