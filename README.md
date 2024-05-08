@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Project Name: User-Course Data Retrieval
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This [project](https://userdata-mu.vercel.app/) demonstrates the retrieval of data from two related tables, "users" and "courses", using React and Supabase database. The tables are linked via a course ID, enabling the integration of course-related information for each user. Users can apply various filters to customize data presentation based on their preferences.
 
-## Available Scripts
+## Features
+- Data retrieval from "users" and "courses" tables.
+- Integration of course-related information for each user.
+- Multiple user filters for customized data presentation.
+- Seamless implementation using React and Supabase.
 
-In the project directory, you can run:
+## Setup Instructions
+1. Clone the repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Configure Supabase credentials in `src/App.js`.
+4. Run the application using `npm start`.
 
-### `npm start`
+## Usage
+1. Open the application in your browser.
+2. Apply filters to customize data presentation.
+3. Explore the user-course data relationship.
+4. Enjoy seamless data retrieval and visualization.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- React
+- Supabase
+- JavaScript
+- HTML
+- CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Schema Visualizer
+![Screenshot 2024-05-08 221859](https://github.com/harshilshah99/userdata/assets/82211574/130dcc41-b5f0-4aae-8608-e715e9c1ca3a)
 
-### `npm test`
+## Screenshots
+![Screenshot 2024-05-08 223538](https://github.com/harshilshah99/userdata/assets/82211574/b4eb0168-eca8-4607-8980-fb2b037172ee)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
